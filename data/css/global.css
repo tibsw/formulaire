@@ -1,0 +1,77 @@
+body {
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+  background: #3e1f92;
+  color: #FFF;
+  min-height: 80vh;
+}
+
+body * {
+  box-shadow: border-box;
+}
+
+div.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+input, textarea {
+  border-radius: 5px;
+  border: 1.5px solid #adb5bd;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  resize: none;
+}
+
+input.error, textarea.error {
+  border: 1.5px solid #e63946;
+}
+
+div.submit {
+  text-align: center;
+  margin-top: 20px;
+}
+
+div.submit input {
+  border: 0;
+  padding: 15px;
+  background: #fa949d;
+  color: #FFF;
+}
+
+div.submit input:hover {
+  cursor: pointer;
+}
+
+header {
+  margin: 40px 0;
+}
+
+header div.title {
+  text-align: center;
+}
+
+section.contact div.container {
+  background: #FFF;
+  border-radius: 10px;
+  padding: 20px 40px;
+  color: #000;
+}
+
+section.contact form.editContact div.flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+section.contact form.editContact div.divForm {
+  margin: 20px 0;
+}
+/*# sourceMappingURL=global.css.map */

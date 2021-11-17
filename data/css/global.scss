@@ -1,0 +1,82 @@
+// Variables
+$font: 'Poppins', sans-serif;
+
+$purple: #3e1f92;
+$pink: #fa949d;
+$red: #e63946;
+$grey: #adb5bd;
+
+// Elements généraux
+body{
+    font-size: 1em;
+    font-family: $font;
+    background: $purple;
+    color: #FFF;
+    min-height: 80vh;
+    *{
+        box-shadow: border-box;
+    }
+}
+
+div.container{
+    max-width: 700px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input, textarea{
+    border-radius: 5px;
+    border: 1.5px solid $grey;
+    padding: 10px;
+    font-family: $font;
+    resize: none;
+    &.error{
+        border: 1.5px solid $red;
+    }
+}
+
+div.submit{
+    text-align: center;
+    margin-top: 20px;
+    input{
+        border: 0;
+        padding: 15px;
+        background: $pink;
+        color: #FFF;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+// Page d'accueil
+header{
+    margin: 40px 0;
+    div.title{
+        text-align: center;
+    }
+}
+section.contact{
+    div.container{
+        background: #FFF;
+        border-radius: 10px;
+        padding: 20px 40px;
+        color: #000;
+    }
+    form.editContact{
+        div.flex{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+        }  
+        div.divForm{
+            margin: 20px 0;
+        }
+    }
+}
